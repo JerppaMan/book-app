@@ -1,0 +1,158 @@
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+p {
+    float: left;
+}
+
+.BookApp {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #333;
+    text-align: center;
+    padding: 6px;
+    width: 70%;
+    margin: 0 auto;
+    height: 5000px;
+}
+
+#listSection {
+    color: #333;
+    text-align: center;
+    padding: 6px;
+    float: left;
+    width: 50%;
+}
+
+.list-div {
+    margin: 2px;
+}
+
+.list-button {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 75%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+.title {
+    font-size: 15px;
+    float: left;
+    padding: 0;
+}
+
+.author {
+    font-size: 10px;
+    float: right;
+    margin-top: 25px;
+}
+
+#editSection {
+    color: #333;
+    text-align: center;
+    padding: 6px;
+    height: auto;
+    margin-left: 50%;
+    padding-bottom: 10%;
+}
+
+.form-group {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 70%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    padding-bottom: 15%;
+}
+
+.form-text {
+    padding: 2px;
+    margin: 2px;
+    width: 95%;
+}
+
+.form-text-description {
+    padding: 2px;
+    margin: 2px;
+    width: 97%;
+    height: 200px;
+    border-radius: 0.3rem;
+    overflow: scroll;
+}
+
+input[type=text]:focus {
+    background-color: #e8e8e8;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    margin-right: 53%;
+}
+
+.button_2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    margin-left: 60%;
+}
+
+#submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+#delete {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+    margin-right: 12%;
+    margin-top: 5%;
+}
