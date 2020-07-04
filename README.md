@@ -13,7 +13,7 @@ Clone the repository
 
 Change directory and initiate database file
 ```bash
-cd <repository folder>
+cd book-app/
 touch database/database.sqlite
 ```
 
@@ -40,3 +40,10 @@ php artisan serve
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+#Notes
+
+Absolute path example:
+```bash
+/home/user/book-app/database/database.sqlite
+```
