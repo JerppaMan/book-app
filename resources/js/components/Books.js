@@ -31,8 +31,6 @@ class Books extends Component {
             title: state.title,
             author: state.author,
             description: state.description,
-        }, function () {
-            this.state.books.length === 0 && this.get_books()
         })
     }
 
