@@ -7,7 +7,7 @@ class Books extends Component {
     constructor(props) {
         super(props)
 
-        this.url = 'http://127.0.0.1:8000/api/book-app'
+        this.url = 'https://isopahkala.eu/api/book-app'
         this.get_books = this.get_books.bind(this)
         this.new_book = this.new_book.bind(this)
         this.set_book = this.set_book.bind(this)
