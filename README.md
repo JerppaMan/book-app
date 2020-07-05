@@ -4,10 +4,10 @@ Book app was built on Laravel and React
 
 ## Installation
 
-Software versions
+Required versions
 PHP 7.2
-NPM 3.5.2
-NodeJS 12
+Composer
+PHP-sqlite3
 ---
 Clone the repository
 
@@ -42,6 +42,9 @@ php artisan serve
 [MIT](https://choosealicense.com/licenses/mit/)
 
 #Notes
+
+NPM 3.5.2
+NodeJS 12
 
 Absolute path example:
 ```bash
